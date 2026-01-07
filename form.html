@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      form .basic-info {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h2>Jamal Pitha Ghar</h2>
+        <form>
+          <fieldset class="basic-info">
+            <legend>Basic Information</legend>
+
+            <label for="name">Your Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Hossain Mahmud"
+            /><br />
+
+            <label for="email">Your Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@gmail.com"
+            />
+          </fieldset>
+
+          <fieldset>
+            <legend>Choose your favorite Pitha:</legend>
+            <input type="radio" name="" id="chitoy" />
+            <label for="chitoy">Chitoy</label><br />
+
+            <input type="radio" name="" id="bhapa" />
+            <label for="bhapa">Bhapa Pitha</label><br />
+
+            <input type="radio" name="" id="puli" />
+            <label for="puli">Puli Pitha</label><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Vorta</legend>
+            <input type="checkbox" name="" id="Morich" />
+            <label for="Morich">Morich</label><br />
+
+            <input type="checkbox" name="" id="Shutki" />
+            <label for="Shutki">Shutki</label><br />
+
+            <input type="checkbox" name="" id="Sorisha" />
+            <label for="Sorisha">Sorisha</label><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Additional Comments:</legend>
+            <textarea
+              name="comments"
+              id="comments"
+              cols="50"
+              rows="5"
+            ></textarea>
+          </fieldset>
+
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Clear" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
